@@ -1,0 +1,68 @@
+.services-container {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center */
+  align-items: center; /* Horizontally center */
+  min-height: 100vh; /* Ensure the container takes full viewport height */
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center; /* Horizontally center cards */
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 100%; /* Ensure cards container doesn't overflow */
+  justify-content: center; /* Center cards horizontally */
+}
+
+.card {
+  width: 18rem;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center; /* Center text inside the card */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  font-size: 1rem;
+}
+
+.card:active {
+  transform: translateY(2px);
+}
+
+/* Background styling for the service image */
+.serviceimg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__ed33d5cc-8a21-41e3-94b3-bd98b835250b&w=1920&q=75") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; /* Full viewport height */
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  padding: 0;
+}

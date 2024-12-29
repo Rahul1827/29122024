@@ -1,0 +1,131 @@
+.products-page {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+
+.product-card {
+    width: 14rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 140px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.product-images img {
+    height: 90px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .product-cards {
+        justify-content: space-evenly;
+    }
+
+    .product-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-cards {
+        justify-content: center;
+    }
+
+    .product-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .product-images img {
+        height: 80px;
+    }
+
+    .btn-primary {
+        font-size: 0.85rem;
+    }
+}

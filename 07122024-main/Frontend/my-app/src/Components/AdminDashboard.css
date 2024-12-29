@@ -1,0 +1,285 @@
+
+.admin-dashboard {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    color: #5ef606f3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+
+.admin-dashboard{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__ed33d5cc-8a21-41e3-94b3-bd98b835250b&w=1920&q=75") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; 
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    padding: 0;
+  }
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Cards Section */
+.dashboard-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.dashboard-card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.dashboard-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.dashboard-card p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Logout Button */
+.btn-outline-danger {
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn-outline-danger:hover {
+    background-color: #d32f2f;
+}
+
+/* Upload Form Styles */
+.upload-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-in-out;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.upload-form input,
+.upload-form textarea {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.upload-form input:focus,
+.upload-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.upload-form input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.image-preview {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 15px;
+    border-radius: 8px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Product List Section */
+.product-list {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;  
+    width: 100%;  
+    padding-bottom: 100px; 
+}
+
+/* Product Card */
+.product-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    display: flex;            
+    flex-direction: column;     
+    justify-content: space-between;  
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 1s ease-in-out;
+    height: 350px;  
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.product-card h4 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Edit and Delete buttons */
+.product-card button {
+    margin-top: auto;  
+    padding: 8px 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+.product-card button:focus {
+    outline: none;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .upload-form {
+        width: 80%;
+    }
+
+    .product-card {
+        width: 45%;  
+        height: auto; 
+    }
+
+    .dashboard-card {
+        width: 45%;  
+    }
+}
+
+@media (max-width: 480px) {
+    .upload-form {
+        width: 100%;
+    }
+
+    .product-card {
+        width: 100%;
+        margin-bottom: 15px;
+        height: auto; 
+    }
+
+    .image-preview {
+        width: 100px;
+        height: 100px;
+    }
+
+    .dashboard-card {
+        width: 90%; 
+        height: auto;  
+    }
+}

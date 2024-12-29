@@ -1,0 +1,177 @@
+/* General Container Styling */
+.nutrition-container {
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  color: #2e7d32;
+  border: 2px solid #4caf50;
+  transform: translateY(20px) scale(0.95);
+  animation: containerSlideIn 1.2s ease-out forwards;
+}
+
+/* Title Styling */
+.nutrition-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e7d32;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  animation: titleFadeIn 1.5s ease forwards;
+}
+
+.nutrition-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #4caf50;
+  margin: 0.5rem auto;
+  border-radius: 4px;
+  animation: lineExpand 1.5s ease forwards;
+}
+
+/* Form Styling */
+.form-group {
+  margin-bottom: 1.5rem;
+  animation: fieldFadeUp 1.2s ease forwards;
+  opacity: 0;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #2e7d32;
+}
+
+.form-select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #66bb6a;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #2e7d32;
+  outline: none;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-select:focus {
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.5);
+  border-color: #4caf50;
+  transform: scale(1.02);
+}
+
+.form-select:hover {
+  border-color: #388e3c;
+}
+
+/* Submit Button */
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  animation: buttonPopIn 1.6s ease forwards;
+  opacity: 0;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit:active {
+  transform: translateY(1px) scale(1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Recommendations Section */
+.recommendations-container {
+  margin-top: 2rem;
+  background: #e8f5e9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.recommendations-title {
+  font-size: 1.5rem;
+  color: #388e3c;
+  margin-bottom: 1rem;
+}
+
+.recommendations-container p {
+  font-size: 1.1rem;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+/* Animations */
+@keyframes containerSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes titleFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes lineExpand {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80px;
+  }
+}
+
+@keyframes fieldFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes buttonPopIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

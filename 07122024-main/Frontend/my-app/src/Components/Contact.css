@@ -1,0 +1,133 @@
+/* 
+.contact-page {
+    padding: 30px;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+
+  .contact-page h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+
+  .contact-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+
+  .contact-card h3 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+ 
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .contact-card {
+      padding: 15px;
+    }
+  
+    .contact-page h2 {
+      font-size: 1.5rem;
+    }
+  }
+   */
+
+   .contact-page {
+    background-image: url('https://media.istockphoto.com/id/671712984/photo/farmer-hand-giving-chemical-fertilizer-to-young-tree.jpg?s=612x612&w=0&k=20&c=42be5akioApJsOaNNQLqGZSM-KWldlgI_pZcYdlafss='); /* Replace with your actual background image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-form-container {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .btnContact {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btnContact:hover {
+    background-color: #45a049;
+  }
+  
+  .message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }

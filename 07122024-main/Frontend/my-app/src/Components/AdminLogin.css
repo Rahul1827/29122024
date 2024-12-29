@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+/*
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f5f7;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;  
+  padding: 0; 
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 80px;  
+  width: 100%; 
+} */
+/* AdminLogin.css */
+
+/* Reset and box-sizing */
+/* Global Reset */
+/* Global Reset */
+/* Global Reset */
+/* Global Reset */
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.admin {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__ed33d5cc-8a21-41e3-94b3-bd98b835250b&w=1920&q=75") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  padding: 0;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.sign-in-container {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+  border: 5px solid #27ae60;
+  animation: fadeIn 1s ease-out;
+  background: linear-gradient(135deg, #27ae60 0%, #fff 100%);
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #27ae60;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-out;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  outline: none;
+  color: #333;
+  background-color: #fff;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.input:focus {
+  border-color: #2ecc71;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.8);
+}
+
+.anchor {
+  font-size: 0.9rem;
+  color: #27ae60;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.anchor:hover {
+  color: #2ecc71;
+  text-decoration: underline;
+}
+
+.button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #2ecc71;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(39, 174, 96, 0.6);
+}
+
+@media (max-width: 480px) {
+  .sign-in-container {
+    padding: 30px 20px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .input, .button {
+    font-size: 1rem;
+  }
+}

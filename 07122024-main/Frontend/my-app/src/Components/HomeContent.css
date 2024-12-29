@@ -1,0 +1,273 @@
+/* General Content Styling */
+.services-section,
+.cta-section,
+.faq-section,
+.sustainability-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services-section h2,
+.cta-section h2,
+.faq-section h2,
+.sustainability-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Services Section */
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+}
+
+.service-card i {
+  font-size: 2.5rem;
+  color: #1abc9c;
+  margin-bottom: 15px;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+  background-color: #2c3e50;
+  color: #ffffff;
+}
+
+.cta-section button {
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-section button:hover {
+  background-color: #16a085;
+}
+
+.faq-section {
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #ffffff, #f3f8ff);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .faq-section h2 {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  .faq-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .faq-card {
+    width: 45%;
+    min-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .faq-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .faq-card h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+  }
+  
+  .faq-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .faq-card {
+      width: 100%;
+    }
+  }
+  .sustainability-section {
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #f3ffe6, #ffffff);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .sustainability-section h2 {
+    font-size: 2.8rem;
+    color: #27ae60;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  .sustainability-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .sustainability-item {
+    width: 30%;
+    min-width: 280px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .sustainability-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sustainability-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .sustainability-item h3 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .sustainability-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .sustainability-item {
+      width: 100%;
+    }
+  
+    .sustainability-section h2 {
+      font-size: 2rem;
+    }
+  }
+    /* FAQ Section */
+.faq-section {
+    background-color: #f0f4f8;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-section h2 {
+    font-size: 2.5em;
+    color: #005f73;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .faq-section .faq {
+    margin-bottom: 25px;
+  }
+  
+  .faq-section .faq h3 {
+    font-size: 1.8em;
+    color: #007f91;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+  }
+  
+  .faq-section .faq h3:hover {
+    color: #009bb5;
+  }
+  
+  .faq-section .faq p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.7;
+    transition: color 0.3s;
+  }
+  
+  /* Sustainability Section */
+  .sustainability-section {
+    background-color: #e0f7ec;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sustainability-section h2 {
+    font-size: 2.5em;
+    color: #007f91;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sustainability-section p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sustainability-section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .sustainability-section ul li {
+    font-size: 1.2em;
+    color: #005f73;
+    line-height: 2;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .sustainability-section ul li::before {
+    content: "✔";
+    color: #007f91;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  

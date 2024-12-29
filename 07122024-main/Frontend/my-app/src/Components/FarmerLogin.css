@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f5f7;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.farmer {
+
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__ed33d5cc-8a21-41e3-94b3-bd98b835250b&w=1920&q=75") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -20;
+  padding: 0;
+  
+}
+
+.main-content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 0px;
+  width: 100%;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.SignUpContainer,
+.SignInContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  opacity: 0;
+  animation: slideIn 1.5s ease-out forwards;
+}
+
+.SignUpContainer {
+  animation-delay: 0.2s;
+}
+
+.SignInContainer {
+  animation-delay: 0.4s;
+}
+
+.Title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  animation: fadeInUp 1s ease-out;
+}
+
+.Input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+}
+
+.Input:focus {
+  border-color: #4CAF50;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+  animation: focusAnim 0.3s ease-out;
+}
+
+.Button {
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  animation: bounce 1.5s infinite;
+}
+
+.Button:hover {
+  background-color: #45a049;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.GhostButton {
+  border: 2px solid #4CAF50;
+  color: #4CAF50;
+  padding: 12px 20px;
+  cursor: pointer;
+  background: transparent;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.GhostButton:hover {
+  background: #4CAF50;
+  color: white;
+}
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  animation: fadeInOverlay 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes focusAnim {
+  0% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes fadeInOverlay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

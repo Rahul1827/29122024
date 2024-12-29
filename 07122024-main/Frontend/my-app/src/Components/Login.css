@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .abc {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url('https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__ed33d5cc-8a21-41e3-94b3-bd98b835250b&w=1920&q=75');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .heading {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    animation: fadeInDown 1s ease-in-out;
+    z-index: 2;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeInUp 1s ease-in-out;
+    z-index: 2;
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #40e0d0, #ff7f50); /* Teal to Coral Gradient */
+    color: #fff;
+    padding: 35px 25px;
+    width: 280px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.9;
+    z-index: 2;
+  }
+  
+  .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(135deg, #ff7f50, #40e0d0); /* Reverse gradient on hover */
+    opacity: 1;
+  }
+  
+  .cardTitle {
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+    background: linear-gradient(45deg, #ff6347, #ff4500); /* Coral gradient for title */
+    -webkit-background-clip: text; /* Clips the background gradient to text */
+    color: transparent; /* Makes the text color transparent so the gradient is visible */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Adds shadow for better contrast */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .cardDescription {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #f0f0f0;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .card:hover .cardTitle {
+    color: #fff; /* Solid white text color on hover */
+  }
+  
+  .card:hover .cardDescription {
+    color: #ffeb3b; /* Yellow shade for description on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .cardsContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
