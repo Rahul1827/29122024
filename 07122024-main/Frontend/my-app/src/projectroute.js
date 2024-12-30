@@ -21,6 +21,7 @@ import NutritionRecommendation from "./Components/NutritionRecommendation";
 import BookFieldVisit from "./Components/BookFieldVisit";
 import { Login } from "./Components/Login";
 import { ViewFieldRequest } from "./Components/ViewFieldRequest";
+import { FarmerDashboard } from "./Components/FarmerDashboard";
 
 const projectroute = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const projectroute = createBrowserRouter([
       {
         path: "/adminDashboard", // New route for Admin Dashboard
         element: <AdminDashboard />,
+      },
+      {
+        path: "/farmerDashboard", // New route for Admin Dashboard
+        element: <FarmerDashboard />,
       },
       {
         path: "/addProduct", // Route for adding products
