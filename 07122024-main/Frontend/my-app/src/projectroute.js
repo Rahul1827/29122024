@@ -9,7 +9,7 @@ import About from "./Components/Products";
 import CropDetails from "./Components/CropDetails";
 import SignInDropDown from "./Components/SignInDropDown";
 import Contact from "./Components/Contact";
-import { createBrowserRouter } from "react-router-dom";
+import { Outlet, createBrowserRouter } from "react-router-dom";
 import App from "./Components/App";
 import Products from "./Components/Products";
 import AdminDashboard from "./Components/AdminDashboard";
@@ -22,6 +22,9 @@ import BookFieldVisit from "./Components/BookFieldVisit";
 import { Login } from "./Components/Login";
 import { ViewFieldRequest } from "./Components/ViewFieldRequest";
 import { FarmerDashboard } from "./Components/FarmerDashboard";
+import AdminHeader from "./Components/AdminHeader";
+import AdminProduct from "./Components/AdminProduct";
+import FarmerHeader from "./Components/FarmerHeader";
 
 const projectroute = createBrowserRouter([
   {
@@ -99,6 +102,74 @@ const projectroute = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "admindsh",
+    element: (
+    <><AdminHeader />
+    <Outlet/>
+    </>),
+    children: [
+      {
+        path: "adminhome",
+        element: <Home />, 
+      },
+      {
+        path: "adminproduct",
+        element: <AdminProduct/>, 
+      },
+      {
+        path: "adminDashboard",
+        element: <AdminDashboard/>, 
+      },
+      {
+        path: "addproduct",
+        element: <AddProduct/>, 
+      },
+      {
+        path: "managestock",
+        element: <ManageStock/>, 
+      },
+      {
+        path: "vieworders",
+        element: <ViewOrders/>, 
+      },
+      {
+        path: "viewfieldvisitrequest",
+        element: <ViewFieldRequest/>, 
+      },
+    ]
+  },
+
+
+
+  //farmer
+
+  {
+    path: "farmerdash",
+    element: (
+    <><FarmerHeader />
+    <Outlet/>
+    </>),
+    children: [
+      {
+        path: "farmerhome",
+        element: <Home />, 
+      },
+      {
+        path: "farmerproducts",
+        element: <Products/>, 
+      },
+      {
+        path: "farmerservices",
+        element: <Services/>, 
+      },
+      {
+        path: "contact",
+        element: <Contact/>, 
+      },
+      
+    ]
+  }
 ]);
 
 export default projectroute;

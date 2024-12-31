@@ -13,7 +13,7 @@ export default function AdminLogin() {
 
         if (email === 'admin@gmail.com' && password === 'password') {
             localStorage.setItem('adminLoggedIn', 'true');
-            navigate('/adminDashboard');
+            navigate('/admindsh/adminhome');
         } else {
             alert('Invalid credentials');
         }
@@ -22,7 +22,7 @@ export default function AdminLogin() {
     return (
      <div class="admin">
                    <div className="main-content">
-            <Components.Container>
+           <Components.Container>
                 <Components.SignInContainer>
                     <Components.Form onSubmit={handleLogin}>
                         <Components.Title>Admin Login</Components.Title>

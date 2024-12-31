@@ -20,8 +20,8 @@ const Popup = ({ product }) => {
         <p><strong>Brand:</strong> {product.brand}</p>
         <p><strong>Description:</strong> {product.description}</p>
         <p><strong>Price:</strong> ₹{product.price}</p>
-        <p><strong>Quantity:</strong> {product.quantity}</p>
-        <p><strong>Category:</strong> {product.category}</p>
+        {/* <p><strong>Quantity:</strong> {product.quantity}</p>
+        <p><strong>Category:</strong> {product.category}</p> */}
       </div>
     </div>
   );
