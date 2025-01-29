@@ -38,7 +38,7 @@ export default function Header() {
     setIsAdminLoggedIn(false);
     navigate('/');
   };
-  const isAdminLoginPage = location.pathname === '/adminDashboard'|| location.pathname ==='/contactus';
+  // const isAdminLoginPage = location.pathname === '/adminDashboard'|| location.pathname ==='/contactus';
   return (
     <div>
       {/* Navbar */}
@@ -82,17 +82,17 @@ export default function Header() {
                 <Link className="nav-link" to="/login">Login</Link>
               </li>
 
-             {!isAdminLoginPage&&(<li className="nav-item">
+             <li className="nav-item">
                 <Link className="nav-link" to="/service">
                   Services
                 </Link>
-              </li>)} 
+              </li>
 
-             {!isAdminLoginPage && (<li className="nav-item">
+             <li className="nav-item">
                 <Link className="nav-link" to="/contactus">
                   Contact
                 </Link>
-              </li>)}
+              </li>
 
               {isAdminLoggedIn && (
                 <li className="nav-item">
