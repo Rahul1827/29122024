@@ -195,3 +195,326 @@ body {
     opacity: 1;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Reset Password Page Styles */
+/* .reset-password-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.reset-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.reset-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #007BFF;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: #0056b3;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset Password Page Styles */
+.reset-password-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.reset-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.reset-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #2c6b2f; /* Green */
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 1rem;
+  color: #2c6b2f; /* Green */
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #2c6b2f; /* Green */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2c6b2f; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: #218c1e; /* Darker Green */
+}
+
+/* Farmer Login / Signup Form Styles */
+.farmer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpContainer, .SignInContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.SignUpContainer {
+  background-color: #fff;
+}
+
+.SignInContainer {
+  background-color: #fff;
+}
+
+.SignUpContainer .Form, .SignInContainer .Form {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.SignUpContainer .Title, .SignInContainer .Title {
+  font-size: 1.6rem;
+  color: #2c6b2f; /* Green */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.SignUpContainer .Input, .SignInContainer .Input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.SignUpContainer .Input:focus, .SignInContainer .Input:focus {
+  border-color: #2c6b2f; /* Green */
+}
+
+.SignUpContainer .Button, .SignInContainer .Button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2c6b2f; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.SignUpContainer .Button:hover, .SignInContainer .Button:hover {
+  background-color: #218c1e; /* Darker Green */
+}
+
+.SignUpContainer .Anchor, .SignInContainer .Anchor {
+  color: #2c6b2f; /* Green */
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.SignUpContainer .Anchor:hover, .SignInContainer .Anchor:hover {
+  color: #218c1e; /* Darker Green */
+}
+
+.OverlayContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Overlay {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+}
+
+.LeftOverlayPanel, .RightOverlayPanel {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LeftOverlayPanel {
+  left: 0;
+  background-color: #2c6b2f; /* Green */
+  color: white;
+}
+
+.RightOverlayPanel {
+  right: 0;
+  background-color: #fff;
+}
+
+.Title {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.Paragraph {
+  font-size: 1rem;
+  color: white;
+}
+
+.GhostButton {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.GhostButton:hover {
+  background-color: white;
+  color: #2c6b2f; /* Green */
+}

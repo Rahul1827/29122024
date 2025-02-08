@@ -1,118 +1,93 @@
- /* Overlay for the Popup */
+/* Popup.css */
+
+/* Overlay for the Popup */
 .popup-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Darker overlay for a more dramatic effect */
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 1050; /* Ensure it's above other content */
 }
 
 /* Main Popup Content */
 .popup-content {
   background: #fff;
-  padding: 30px;
-  border-radius: 20px; /* Softer and more modern round corners */
-  width: 85%;
-  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh; /* Prevent popup from becoming too large */
+  overflow: hidden; /* Prevent overflow issues */
   position: relative;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Soft shadow with more depth */
-  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Add a smooth scaling effect when the popup appears */
-.popup-overlay.active .popup-content {
-  transform: scale(1.05);
+/* Scrollable content area */
+.popup-body {
+  overflow-y: auto;
+  max-height: 50vh; /* Ensure scrolling inside popup for long content */
+  padding-right: 10px;
+  margin-bottom: 10px;
+  scrollbar-width: thin; /* Ensures scrollbar is visible */
+  scrollbar-color: #888 #f1f1f1; /* Custom scrollbar styling */
+}
+
+/* Custom scrollbar for Webkit browsers */
+.popup-body::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+}
+
+.popup-body::-webkit-scrollbar-thumb {
+  background: #888; /* Darker scrollbar */
+  border-radius: 4px;
+}
+
+.popup-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 /* Image inside the popup */
 .popup-image {
   width: 100%;
-  height: auto;
-  border-radius: 15px; /* Smooth corners on the image */
-  margin-bottom: 20px;
-  object-fit: cover; /* Ensures image is well-scaled */
+  max-height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-/* Close Button (Cancel) */
+/* Close Button */
 .close-button {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  width: 35px;
-  height: 35px;
-  background: #e74c3c; /* Red background for visibility */
+  top: 10px;
+  right: 10px;
+  background: #e74c3c;
   color: white;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 18px;
   border: none;
   border-radius: 50%;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background 0.3s ease, transform 0.2s ease-in-out;
 }
 
-/* Close Button Icon - stylish '×' symbol */
-.close-button::before {
-  content: "×"; /* Unicode for the cross symbol */
-  font-size: 26px; /* Slightly larger '×' for clarity */
-  font-weight: bold;
-  color: white;
-}
-
-/* Hover effect for close button */
 .close-button:hover {
-  background: #c0392b; /* Darker red on hover */
-  transform: scale(1.1); /* Slightly grow on hover for a more dynamic feel */
+  background: #c0392b;
 }
 
-/* Additional Styling for Popup Content */
-.popup-content h2 {
-  font-size: 26px;
-  color: #333;
-  font-weight: 700;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.popup-content p {
-  font-size: 16px;
-  color: #555;
-  line-height: 1.6;
-  text-align: center;
-}
-
-.popup-content a {
-  display: inline-block;
-  background: #3498db;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 20px;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-/* Hover effect for action links */
-.popup-content a:hover {
-  background: #2980b9;
-  transform: translateY(-3px); /* Lift effect on hover */
-}
-
-/* Animation on opening */
-.popup-overlay.active {
-  animation: fadeIn 0.5s ease-in-out;
-}
-
+/* Animation */
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
 }

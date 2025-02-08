@@ -1,3 +1,210 @@
+/* .servicebgimg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__ed33d5cc-8a21-41e3-94b3-bd98b835250b&w=1920&q=75") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  padding: 0;
+}
+
+.visit-container {
+  margin: 3rem auto;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4caf50;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.visit-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  animation: slideDown 1s ease-out forwards;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  animation: fadeUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #2e7d32;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #66bb6a;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #2e7d32;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus,
+.form-select:focus {
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+  border-color: #4caf50;
+  transform: scale(1.02);
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: buttonBounceIn 1.5s ease-out forwards;
+  opacity: 0;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(135deg, #2e7d32, #1b5e20);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes buttonBounceIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+ */
+
+
+
+/* new form */
+
+/* 
+.request-grid {
+  margin-top: 20px;
+}
+
+.request-grid table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.request-grid th, .request-grid td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.request-grid th {
+  background-color: #f4f4f4;
+}
+
+.btn-view-requests {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-view-requests:hover {
+  background-color: #45a049;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .servicebgimg {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6),
@@ -141,4 +348,42 @@
     transform: scale(1);
     opacity: 1;
   }
+}
+
+.request-grid {
+  margin-top: 40px;  /* Added extra space */
+  display: flex;
+  justify-content: center; /* Horizontally centers the button */
+  align-items: center;     /* Vertically centers the button */
+}
+
+.request-grid table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.request-grid th,
+.request-grid td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.request-grid th {
+  background-color: #f4f4f4;
+}
+
+.btn-view-requests {
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn-view-requests:hover {
+  background-color: #45a049;
 }

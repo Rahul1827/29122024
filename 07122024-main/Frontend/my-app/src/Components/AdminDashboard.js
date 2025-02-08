@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './AdminDashboard.css';
@@ -36,7 +34,7 @@ export default function AdminDashboard() {
     return (
         <div className="admin-dashboard">
             <h2>Admin Dashboard</h2>
-            <button onClick={handleLogout} className="btn btn-outline-danger">Logout</button>
+            {/* <button onClick={handleLogout} className="btn btn-outline-danger">Logout</button> */}
 
             <div className="dashboard-cards">
                 {/* Add Product Card */}
