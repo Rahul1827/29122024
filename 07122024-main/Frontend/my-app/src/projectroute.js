@@ -26,168 +26,10 @@ import AdminHeader from "./Components/AdminHeader";
 import AdminProduct from "./Components/AdminProduct";
 import FarmerHeader from "./Components/FarmerHeader";
 import ResetPassword from "./Components/ResetPassword";  // Adjust the path if necessary
+import AddCropAdvisory from "./Components/AddCropAdvisory"; // Adjust the path if necessary
+import  Booking  from "./Components/Booking";
+import FarmerProducts from "./Components/FarmerProducts";
 
-
-// const projectroute = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     children: [
-//       {
-//         path: "/",
-//         element: <Home />, 
-//       },
-//       {
-//         path: "/farmerRegistration",
-//         element: <FarmerRegistration />,
-//       },
-//       {
-//         path: "/farmerLogin",
-//         element: <FarmerLogin />,
-//       },
-//       {
-//         path: "/adminLogin",
-//         element: <AdminLogin />,
-//       },
-//       {
-//         path: "/adminDashboard", // New route for Admin Dashboard
-//         element: <AdminDashboard />,
-//       },
-//       {
-//         path: "/farmerDashboard", // New route for Admin Dashboard
-//         element: <FarmerDashboard />,
-//       },
-//       {
-//         path: "/addProduct", // Route for adding products
-//         element: <AddProduct />,
-//       },
-//       {
-//         path: "/manageStock", // Route for managing stock
-//         element: <ManageStock />,
-//       },
-//       {
-//         path: "/viewOrders", // Route for viewing orders
-//         element: <ViewOrders />,
-//       },
-//       {
-//         path: "/viewFieldVisitRequest", // Route for viewing field request
-//         element: <ViewFieldRequest />,
-//       },
-//       {
-//         path: "/service",
-//         element: <Services />,
-//       },
-//       {
-//         path: "/products",
-//         element: <Products />,
-//       },
-//       {
-//         path: "/cropdetail",
-//         element: <CropDetails />,
-//       },
-//       {
-//         path: "/login",
-//         element: <Login/>,
-//       },
-//       {
-//         path: "/contactus",
-//         element: <Contact />,
-//       },
-//       {
-//         path: "/nutritionRecommendation",
-//         element: <NutritionRecommendation/>,
-//       },
-
-//       {
-//         path: "/bookFieldVisit",
-//         element: <BookFieldVisit/>,
-//       },
-      
-
-//       {
-//         path: "/reset-password",
-//         element: <ResetPassword/>,
-//     }
-    
-      
-//     ],
-//   },
-//   {
-//     path: "admindsh",
-//     element: (
-//     <><AdminHeader />
-//     <Outlet/>
-//     </>),
-//     children: [
-//       {
-//         path: "adminhome",
-//         element: <Home />, 
-//       },
-//       {
-//         path: "adminproduct",
-//         element: <AdminProduct/>, 
-//       },
-//       {
-//         path: "adminDashboard",
-//         element: <AdminDashboard/>, 
-//       },
-//       {
-//         path: "addproduct",
-//         element: <AddProduct/>, 
-//       },
-//       {
-//         path: "managestock",
-//         element: <ManageStock/>, 
-//       },
-//       {
-//         path: "vieworders",
-//         element: <ViewOrders/>, 
-//       },
-//       {
-//         path: "viewfieldvisitrequest",
-//         element: <ViewFieldRequest/>, 
-//       },
-//     ]
-//   },
-
-
-
-//   //farmer
-
-//   {
-//     path: "farmerdash",
-//     element: (
-//     <><FarmerHeader />
-//     <Outlet/>
-//     </>),
-//     children: [
-//       {
-//         path: "farmerhome",
-//         element: <Home />, 
-//       },
-//       {
-//         path: "farmerproducts",
-//         element: <Products/>, 
-//       },
-//       {
-//         path: "farmerservices",
-//         element: <Services/>, 
-//       },
-//       {
-//         path: "contact",
-//         element: <Contact/>, 
-//       },
-      
-      
-      
-//     ]
-//   }
-  
-
-  
-
-
-// ]);
 
 
 const projectroute = createBrowserRouter([
@@ -298,6 +140,11 @@ const projectroute = createBrowserRouter([
         path: "viewfieldvisitrequest",
         element: <ViewFieldRequest />,
       },
+
+      {
+        path: "addCropAdvisory",
+        element: <AddCropAdvisory/>,
+      },
     ],
   },
   {
@@ -333,6 +180,15 @@ const projectroute = createBrowserRouter([
         path: "nutritionRecommendation", // Add this route
         element: <NutritionRecommendation />,
       },
+
+      {
+        path: "bookingProducts", // Add this route
+        element: <Booking/>,
+      },
+      // {
+      //   path: "faProducts", // Add this route
+      //   element: <FarmerProducts/>,
+      // },
     ],
   },
 ]);

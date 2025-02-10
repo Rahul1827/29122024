@@ -177,6 +177,10 @@ export default function FarmerHeader() {
             <li className="nav-item">
               <Link className="nav-link" to="/farmerdash/farmerproducts">Products</Link>
             </li>
+
+            {/* <li className="nav-item">
+              <Link className="nav-link" to="/farmerdash/faProducts"></Link>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link" to="/farmerdash/farmerservices">Services</Link>
             </li>
@@ -205,3 +209,4 @@ export default function FarmerHeader() {
   );
 }
 
+//======================Trial code==============================
