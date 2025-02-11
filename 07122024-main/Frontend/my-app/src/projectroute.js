@@ -162,7 +162,7 @@ const projectroute = createBrowserRouter([
       },
       {
         path: "farmerproducts",
-        element: <Products />,
+        element: <FarmerProducts/>,
       },
       {
         path: "farmerservices",

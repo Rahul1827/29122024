@@ -1661,6 +1661,150 @@
 
 //===========================Trial code============================
 
+// import React, { useState, useEffect, useRef } from "react";
+// import "./AddProduct.css";
+
+// const AddProduct = () => {
+//   const [product, setProduct] = useState({
+//     name: "",
+//     brand: "",
+//     description: "",
+//     price: "",
+//     image: "",
+//   });
+
+//   const [imagePreview, setImagePreview] = useState(null);
+//   const [editingIndex, setEditingIndex] = useState(null);
+//   const [products, setProducts] = useState([]);
+//   const fileInputRef = useRef(null);
+//   const formRef = useRef(null);
+
+//   useEffect(() => {
+//     fetchProducts();
+//   }, []);
+
+//   const fetchProducts = async () => {
+//     try {
+//       const response = await fetch("https://localhost:44361/api/products");
+//       if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+//       const data = await response.json();
+//       setProducts(data);
+//       localStorage.setItem("farmerProducts", JSON.stringify(data)); // ✅ Sync with FarmerProduct
+//     } catch (error) {
+//       console.error("Error fetching products:", error);
+//     }
+//   };
+
+//   const handleChange = (e) => {
+//     setProduct((prevState) => ({
+//       ...prevState,
+//       [e.target.name]: e.target.value,
+//     }));
+//   };
+
+//   const handleImageUpload = (e) => {
+//     const file = e.target.files[0];
+//     if (file) {
+//       setProduct((prevState) => ({ ...prevState, image: file }));
+//       setImagePreview(URL.createObjectURL(file));
+//     }
+//   };
+
+//   const resetForm = () => {
+//     setProduct({
+//       name: "",
+//       brand: "",
+//       description: "",
+//       price: "",
+//       image: "",
+//     });
+
+//     setImagePreview(null);
+//     setEditingIndex(null);
+
+//     if (fileInputRef.current) {
+//       fileInputRef.current.value = "";
+//     }
+//   };
+
+//   const handleAddProduct = async (e) => {
+//     e.preventDefault();
+//     const formData = new FormData();
+//     formData.append("name", product.name);
+//     formData.append("brand", product.brand);
+//     formData.append("description", product.description);
+//     formData.append("price", product.price);
+
+//     const isEditing = editingIndex !== null;
+//     const url = isEditing
+//       ? `https://localhost:44361/api/products/${products[editingIndex].id}`
+//       : "https://localhost:44361/api/products";
+
+//     const method = isEditing ? "PUT" : "POST";
+
+//     if (product.image instanceof File) {
+//       formData.append("Image", product.image);
+//     }
+
+//     try {
+//       const response = await fetch(url, { method, body: formData });
+//       if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+
+//       const data = await response.json();
+//       setProducts((prevProducts) =>
+//         isEditing
+//           ? prevProducts.map((p, index) => (index === editingIndex ? data : p))
+//           : [...prevProducts, data]
+//       );
+
+//       localStorage.setItem("farmerProducts", JSON.stringify([...products, data])); // ✅ Sync FarmerProduct
+//       resetForm();
+//     } catch (error) {
+//       console.error("Error adding/updating product:", error);
+//       alert(`Error: ${error.message}`);
+//     }
+//   };
+
+//   return (
+//     <div className="add-product-container">
+//       <h2>{editingIndex !== null ? "Edit Product" : "Add New Product"}</h2>
+
+//       <form ref={formRef} onSubmit={handleAddProduct} className="product-form">
+//         <div className="form-group">
+//           <input type="text" name="name" placeholder="Product Name" value={product.name} onChange={handleChange} className="form-control" required />
+//         </div>
+//         <div className="form-group">
+//           <input type="text" name="brand" placeholder="Brand Name" value={product.brand} onChange={handleChange} className="form-control" required />
+//         </div>
+//         <div className="form-group">
+//           <textarea name="description" placeholder="Product Description" value={product.description} onChange={handleChange} className="form-control" rows="4" required />
+//         </div>
+//         <div className="form-group">
+//           <input type="number" name="price" placeholder="Price" value={product.price} onChange={handleChange} className="form-control" required />
+//         </div>
+//         <div className="form-group">
+//           <input type="file" name="image" onChange={handleImageUpload} className="form-control" ref={fileInputRef} />
+//         </div>
+//         {imagePreview && (
+//           <div className="image-preview">
+//             <img src={imagePreview} alt="Preview" className="image-preview-img" />
+//           </div>
+//         )}
+//         <button type="submit" className="submit-button">
+//           {editingIndex !== null ? "Update Product" : "Add Product"}
+//         </button>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default AddProduct;
+
+
+
+
+
+
 import React, { useState, useEffect, useRef } from "react";
 import "./AddProduct.css";
 
@@ -1689,42 +1833,29 @@ const AddProduct = () => {
       if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
       const data = await response.json();
       setProducts(data);
-      localStorage.setItem("farmerProducts", JSON.stringify(data)); // ✅ Sync with FarmerProduct
+      localStorage.setItem("farmerProducts", JSON.stringify(data));
     } catch (error) {
       console.error("Error fetching products:", error);
     }
   };
 
   const handleChange = (e) => {
-    setProduct((prevState) => ({
-      ...prevState,
-      [e.target.name]: e.target.value,
-    }));
+    setProduct({ ...product, [e.target.name]: e.target.value });
   };
 
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
-      setProduct((prevState) => ({ ...prevState, image: file }));
+      setProduct({ ...product, image: file });
       setImagePreview(URL.createObjectURL(file));
     }
   };
 
   const resetForm = () => {
-    setProduct({
-      name: "",
-      brand: "",
-      description: "",
-      price: "",
-      image: "",
-    });
-
+    setProduct({ name: "", brand: "", description: "", price: "", image: "" });
     setImagePreview(null);
     setEditingIndex(null);
-
-    if (fileInputRef.current) {
-      fileInputRef.current.value = "";
-    }
+    if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
   const handleAddProduct = async (e) => {
@@ -1752,15 +1883,28 @@ const AddProduct = () => {
 
       const data = await response.json();
       setProducts((prevProducts) =>
-        isEditing
-          ? prevProducts.map((p, index) => (index === editingIndex ? data : p))
-          : [...prevProducts, data]
+        isEditing ? prevProducts.map((p, index) => (index === editingIndex ? data : p)) : [...prevProducts, data]
       );
 
-      localStorage.setItem("farmerProducts", JSON.stringify([...products, data])); // ✅ Sync FarmerProduct
+      localStorage.setItem("farmerProducts", JSON.stringify([...products, data]));
       resetForm();
     } catch (error) {
       console.error("Error adding/updating product:", error);
+      alert(`Error: ${error.message}`);
+    }
+  };
+
+  const handleDeleteProduct = async (index) => {
+    const productId = products[index].id;
+    try {
+      const response = await fetch(`https://localhost:44361/api/products/${productId}`, {
+        method: "DELETE",
+      });
+      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+
+      setProducts((prevProducts) => prevProducts.filter((_, i) => i !== index));
+    } catch (error) {
+      console.error("Error deleting product:", error);
       alert(`Error: ${error.message}`);
     }
   };
@@ -1794,6 +1938,40 @@ const AddProduct = () => {
           {editingIndex !== null ? "Update Product" : "Add Product"}
         </button>
       </form>
+
+      {products.length > 0 ? (
+        <div className="product-cards">
+          {products.map((item, index) => (
+            <div key={index} className="product-card">
+              <img src={item.imagePath} alt={item.name} className="product-image" />
+              <div className="product-info">
+                <h3 className="product-name">{item.name}</h3>
+                <p className="product-brand">Brand: {item.brand}</p>
+                <p className="product-description">{item.description}</p>
+                <p className="product-price">Price: ₹{item.price}</p>
+                <div className="product-actions">
+                  <button
+                    className="edit-button"
+                    onClick={() => {
+                      setProduct(item);
+                      setEditingIndex(index);
+                      setImagePreview(item.imagePath);
+                      formRef.current?.scrollIntoView({ behavior: "smooth" });
+                    }}
+                  >
+                    Edit
+                  </button>
+                  <button className="delete-button" onClick={() => handleDeleteProduct(index)}>
+                    Delete
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p>No products available.</p>
+      )}
     </div>
   );
 };
