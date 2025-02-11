@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Y7MWHIanP0s5QQTH6/wBWXgjMzhArve4+s6ppTcdm4o=",
+  "Source": "AdminLoginAPI",
+  "BasePath": "_content/AdminLoginAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
