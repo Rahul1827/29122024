@@ -250,9 +250,109 @@
 
 //=====================Trial Code========================
 
+// import React, { useEffect, useState } from "react";
+// import { useSelector, useDispatch } from "react-redux";
+// import { useNavigate } from "react-router-dom";
+// import { showPopup } from "../Store/ProductSlice";
+// import Popup from "../Store/Popup";
+// import "./Products.css";
+
+// const FarmerProducts = () => {
+//   const [products, setProducts] = useState([]);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState(null);
+//   const { popupVisible, selectedProduct } = useSelector((state) => state.products);
+//   const dispatch = useDispatch();
+//   const navigate = useNavigate();
+
+//   // ✅ Use sessionStorage instead of localStorage for login state
+//   const [isFarmerLoggedIn, setIsFarmerLoggedIn] = useState(
+//     sessionStorage.getItem("farmerLoggedIn") === "true"
+//   );
+
+//   useEffect(() => {
+//     fetchProducts();
+
+//     // ✅ Listen for session changes to dynamically update login state
+//     const checkLoginStatus = () => {
+//       setIsFarmerLoggedIn(sessionStorage.getItem("farmerLoggedIn") === "true");
+//     };
+    
+//     window.addEventListener("storage", checkLoginStatus);
+//     return () => window.removeEventListener("storage", checkLoginStatus);
+//   }, []);
+
+//   const fetchProducts = async () => {
+//     try {
+//       const response = await fetch("https://localhost:44361/api/products");
+//       if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+      
+//       const data = await response.json();
+//       setProducts(data);
+//     } catch (err) {
+//       setError(err.message);
+//     } finally {
+//       setLoading(false);
+//     }
+//   };
+
+//   // ✅ Updated function to properly check login status before navigating
+//   const handleBookNow = (product) => {
+//     console.log("SessionStorage:", sessionStorage.getItem("farmerLoggedIn")); // Debugging line
+
+//     if (!isFarmerLoggedIn) {
+//       alert("You must be logged in to book a product.");
+//       navigate("/farmerlogin"); // ✅ Redirect to FarmerLogin instead of generic login page
+//     } else {
+//       navigate("/farmerdash/bookingProducts", { state: { product } });
+//     }
+//   };
+
+//   if (loading) return <p>Loading products...</p>;
+//   if (error) return <p>Error loading products: {error}</p>;
+
+//   return (
+//     <div className="products-page">
+//       <h2>Our Products</h2>
+//       <div className="product-cards">
+//         {products.map((item, index) => (
+//           <div key={index} className="product-card">
+//             <img 
+//               src={item.imagePath || "/placeholder.png"} 
+//               alt={item.name} 
+//               className="card-img-top" 
+//               onError={(e) => (e.target.src = "/placeholder.png")} 
+//             />
+//             <div className="card-body">
+//               <h3 className="card-title">{item.name}</h3>
+//               <p className="card-brand"><strong>Brand:</strong> {item.brand}</p>
+//               <p className="card-text">{item.description.substring(0, 100)}...</p>
+//               <p className="product-price">Price: ₹{item.price}</p>
+//               <div className="product-actions">
+//                 <button className="btn-primary" onClick={() => dispatch(showPopup(item))}>
+//                   Read More
+//                 </button>
+//                 <button className="btn-primary" onClick={() => handleBookNow(item)}>
+//                   Book Now
+//                 </button>
+//               </div>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+
+//       {popupVisible && <Popup product={selectedProduct} />}
+//     </div>
+//   );
+// };
+
+// export default FarmerProducts;
+
+//==========================above code is working fine===========================
+
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { showPopup } from "../Store/ProductSlice";
 import Popup from "../Store/Popup";
 import "./Products.css";
@@ -264,8 +364,8 @@ const FarmerProducts = () => {
   const { popupVisible, selectedProduct } = useSelector((state) => state.products);
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const location = useLocation();
 
-  // ✅ Use sessionStorage instead of localStorage for login state
   const [isFarmerLoggedIn, setIsFarmerLoggedIn] = useState(
     sessionStorage.getItem("farmerLoggedIn") === "true"
   );
@@ -273,11 +373,10 @@ const FarmerProducts = () => {
   useEffect(() => {
     fetchProducts();
 
-    // ✅ Listen for session changes to dynamically update login state
     const checkLoginStatus = () => {
       setIsFarmerLoggedIn(sessionStorage.getItem("farmerLoggedIn") === "true");
     };
-    
+
     window.addEventListener("storage", checkLoginStatus);
     return () => window.removeEventListener("storage", checkLoginStatus);
   }, []);
@@ -286,7 +385,7 @@ const FarmerProducts = () => {
     try {
       const response = await fetch("https://localhost:44361/api/products");
       if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-      
+
       const data = await response.json();
       setProducts(data);
     } catch (err) {
@@ -296,15 +395,12 @@ const FarmerProducts = () => {
     }
   };
 
-  // ✅ Updated function to properly check login status before navigating
   const handleBookNow = (product) => {
-    console.log("SessionStorage:", sessionStorage.getItem("farmerLoggedIn")); // Debugging line
-
     if (!isFarmerLoggedIn) {
       alert("You must be logged in to book a product.");
-      navigate("/farmerlogin"); // ✅ Redirect to FarmerLogin instead of generic login page
+      navigate("/farmerlogin");
     } else {
-      navigate("/farmerdash/bookingProducts", { state: { product } });
+      navigate("/farmerdash/bookingProducts", { state: { product, fromBooking: true } });
     }
   };
 
@@ -317,11 +413,11 @@ const FarmerProducts = () => {
       <div className="product-cards">
         {products.map((item, index) => (
           <div key={index} className="product-card">
-            <img 
-              src={item.imagePath || "/placeholder.png"} 
-              alt={item.name} 
-              className="card-img-top" 
-              onError={(e) => (e.target.src = "/placeholder.png")} 
+            <img
+              src={item.imagePath || "/placeholder.png"}
+              alt={item.name}
+              className="card-img-top"
+              onError={(e) => (e.target.src = "/placeholder.png")}
             />
             <div className="card-body">
               <h3 className="card-title">{item.name}</h3>

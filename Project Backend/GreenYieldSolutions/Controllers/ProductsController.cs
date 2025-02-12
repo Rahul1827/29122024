@@ -128,8 +128,6 @@ namespace GreenYieldSolutions.Controllers
             return Ok(existingProduct);
         }
 
-
-
         // DELETE: api/products/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)

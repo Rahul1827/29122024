@@ -1,4 +1,4 @@
-.products-page {
+/* .products-page {
     text-align: center;
   }
   
@@ -34,4 +34,396 @@
   .btn-primary:hover {
     background-color: #218838;
   }
-  
+   */
+
+
+
+
+   /* Booking Page Container */
+/* General Styles */
+.booking-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: slideDown 0.8s ease-in-out;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 10px 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+strong {
+  color: #333;
+}
+
+/* Quantity Selection */
+/* General Styles */
+.booking-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: slideDown 0.8s ease-in-out;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 10px 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+strong {
+  color: #333;
+}
+
+/* Quantity Selection */
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  animation: slideUp 0.8s ease-in-out;
+}
+
+.quantity-selector button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-selector button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.quantity-selector input {
+  width: 60px;
+  text-align: center;
+  font-size: 1.1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.quantity-selector input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 10px 0;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+.product-booking {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-booking h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-booking img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-booking p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.quantity-selector button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.quantity-selector button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.quantity-selector input {
+  width: 50px;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.quantity-selector input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+.product-booking {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-booking h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-booking img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-booking p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.product-booking {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.my-booking-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.my-booking-page h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.booking-list {
+  margin-top: 20px;
+}
+
+.booking-item {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-item h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.booking-product {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* .booking-product img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+} */
+
+
+.booking-product img {
+  max-width: 400px; /* Increase width */
+  height: 150px; /* Ensure uniform height */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover; /* Ensure proper fit */
+}
+
+
+.booking-product p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.btn-secondary {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 10px 0;
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}

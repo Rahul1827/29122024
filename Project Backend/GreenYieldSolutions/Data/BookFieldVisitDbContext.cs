@@ -13,7 +13,7 @@ namespace GreenYieldSolutions.Data
         {
             modelBuilder.Entity<FieldVisitRequest>()
                 .Property(f => f.FarmerEmail)
-                .IsRequired(); // Ensure it's required
+                .IsRequired(); 
         }
     }
 }

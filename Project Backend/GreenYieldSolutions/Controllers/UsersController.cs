@@ -1,7 +1,4 @@
-﻿
-
-
-using GreenYieldSolutions.Data;
+﻿using GreenYieldSolutions.Data;
 using GreenYieldSolutions.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -63,28 +60,6 @@ namespace GreenYieldSolutions.Controllers
             return Ok(new { Message = "Login successful", UserName = user.Name });
         }
 
-        // 🔹 Forgot Password API
-        //[HttpPost("forgot-password")]
-        //public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDtoFarmer model)
-        //{
-        //    var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
-        //    if (user == null) return BadRequest("User not found");
-
-        //    var newPassword = Guid.NewGuid().ToString("N").Substring(0, 8); // Generate random password
-        //    user.Password = newPassword; // Store plain text password
-        //    await _context.SaveChangesAsync();
-
-        //    return Ok($"Your new password: {newPassword}");
-        //}
-
-
-
-
-
-       
-
-
-
         [HttpPost("forgot-password")]
         public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDtoFarmer model)
         {
@@ -102,66 +77,13 @@ namespace GreenYieldSolutions.Controllers
             return Ok(new { message = "Temporary password generated", tempPassword });
         }
 
-        // Helper function to generate a random password
+        //  function to generate a random password
         private string GenerateRandomPassword(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$";
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[new Random().Next(s.Length)]).ToArray());
         }
-
-
-
-
-
-
-
-
-
-
-
-        // 🔹 Reset Password API
-        //[HttpPost("reset-password")]
-        //public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDtoFarmer model)
-        //{
-        //    var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
-        //    if (user == null) return BadRequest("User not found");
-
-        //    // Verify old password
-        //    if (user.Password != model.OldPassword) // Direct comparison
-        //    {
-        //        return BadRequest("Incorrect old password");
-        //    }
-
-        //    // Update new password as plain text
-        //    user.Password = model.NewPassword;
-        //    await _context.SaveChangesAsync();
-
-        //    return Ok("Password successfully updated");
-        //}
-
-
-
-
-        //[HttpPost("reset-password")]
-        //public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDtoFarmer model)
-        //{
-        //    var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
-        //    if (user == null) return BadRequest("User not found");
-
-        //    // Check if the old password matches
-        //    if (user.Password != model.OldPassword)
-        //    {
-        //        return BadRequest("Incorrect old password");
-        //    }
-
-        //    // Update password (No Hashing)
-        //    user.Password = model.NewPassword;
-        //    await _context.SaveChangesAsync();
-
-        //    return Ok("Password successfully updated.");
-        //}
-
 
 
 

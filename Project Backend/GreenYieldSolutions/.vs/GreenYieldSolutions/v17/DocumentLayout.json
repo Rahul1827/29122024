@@ -1,170 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Project Backend\\GreenYieldSolutions\\",
+  "WorkspaceRootPath": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\controllers\\cropadvisorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\cropadvisorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\data\\cropadvisorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\cropadvisorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\models\\cropadvisory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\cropadvisory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\controllers\\fieldvisitrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\fieldvisitrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\data\\bookfieldvisitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\bookfieldvisitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\CropAdvisoryDb\\20250208201438_AddCropAdvisory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\CropAdvisoryDb\\20250208201438_AddCropAdvisory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\models\\fieldvisitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\fieldvisitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\models\\stockinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\stockinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\data\\addstockdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\addstockdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\stockinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\stockinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\migrations\\20250131071539_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:migrations\\20250131071539_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\greenyieldsolutions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:greenyieldsolutions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\controllers\\stockinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\stockinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddStockDb\\20250205133925_AddStockInventoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AddStockDb\\20250205133925_AddStockInventoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddStockEntryDb\\20250205074907_CreateCropsAndStockTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AddStockEntryDb\\20250205074907_CreateCropsAndStockTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\data\\addproductdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\fieldvisitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\fieldvisitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\cropadvisory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\cropadvisory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\data\\cropadvisorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\cropadvisorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\data\\bookingproductsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\bookingproductsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\data\\bookfieldvisitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\bookfieldvisitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\data\\addstockdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\addstockdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\data\\addproductdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:data\\addproductdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\migrations\\addproductdb\\20250203153744_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:migrations\\addproductdb\\20250203153744_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\migrations\\addproductdb\\addproductdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:migrations\\addproductdb\\addproductdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\controllers\\stockinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\stockinventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\controllers\\fieldvisitrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\fieldvisitrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\controllers\\cropadvisorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\cropadvisorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project work after ccee\\29122024\\project backend\\greenyieldsolutions\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203153133_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AddProductDb\\20250203153133_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203142051_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AddProductDb\\20250203142051_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203112549_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AddProductDb\\20250203112549_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203072838_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AddProductDb\\20250203072838_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203060245_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AddProductDb\\20250203060245_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250202171534_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AddProductDb\\20250202171534_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project Backend\\GreenYieldSolutions\\Migrations\\20250131054122_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250131054122_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\migrations\\userdb\\20250131100729_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:migrations\\userdb\\20250131100729_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\migrations\\addstockdb\\20250205134438_addstockinventorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:migrations\\addstockdb\\20250205134438_addstockinventorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\migrations\\bookfieldvisitdb\\20250206100409_addfieldvisitrequeststable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:migrations\\bookfieldvisitdb\\20250206100409_addfieldvisitrequeststable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\migrations\\bookfieldvisitdb\\20250207113923_addisdeletedbyadmintofieldvisitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:migrations\\bookfieldvisitdb\\20250207113923_addisdeletedbyadmintofieldvisitrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|c:\\project backend\\greenyieldsolutions\\migrations\\cropadvisorydb\\20250209111253_cropadvisorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49367060-FAFD-46FD-966C-B9F846CF6C1D}|GreenYieldSolutions.csproj|solutionrelative:migrations\\cropadvisorydb\\20250209111253_cropadvisorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,505 +110,312 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAswFoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T05:43:57.044Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAowIgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T05:36:58.992Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "20250209111253_CropAdvisoryTable.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\CropAdvisoryDb\\20250209111253_CropAdvisoryTable.cs",
-              "RelativeDocumentMoniker": "Migrations\\CropAdvisoryDb\\20250209111253_CropAdvisoryTable.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\CropAdvisoryDb\\20250209111253_CropAdvisoryTable.cs",
-              "RelativeToolTip": "Migrations\\CropAdvisoryDb\\20250209111253_CropAdvisoryTable.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:12:53.273Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CropAdvisoryController.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\CropAdvisoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CropAdvisoryController.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\CropAdvisoryController.cs",
-              "RelativeToolTip": "Controllers\\CropAdvisoryController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwAEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T10:59:56.777Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-12T18:14:17.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CropAdvisoryDbContext.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Data\\CropAdvisoryDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\CropAdvisoryDbContext.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Data\\CropAdvisoryDbContext.cs",
-              "RelativeToolTip": "Data\\CropAdvisoryDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAACMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T10:58:15.469Z"
+              "WhenOpened": "2025-02-12T18:08:43.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:08:27.709Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CropAdvisory.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Models\\CropAdvisory.cs",
-              "RelativeDocumentMoniker": "Models\\CropAdvisory.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Models\\CropAdvisory.cs",
-              "RelativeToolTip": "Models\\CropAdvisory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Title": "StockInventory.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\StockInventory.cs",
+              "RelativeDocumentMoniker": "Models\\StockInventory.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\StockInventory.cs",
+              "RelativeToolTip": "Models\\StockInventory.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T10:57:12.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookFieldVisitDbContext.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Data\\BookFieldVisitDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\BookFieldVisitDbContext.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Data\\BookFieldVisitDbContext.cs",
-              "RelativeToolTip": "Data\\BookFieldVisitDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T18:54:30.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FieldVisitRequestsController.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\FieldVisitRequestsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FieldVisitRequestsController.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\FieldVisitRequestsController.cs",
-              "RelativeToolTip": "Controllers\\FieldVisitRequestsController.cs",
-              "ViewState": "AgIAABcBAAAAAAAAAAAAACsBAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T19:04:41.671Z"
+              "WhenOpened": "2025-02-12T18:08:17.91Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAmwNYAAAAFAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:31:57.664Z"
+              "WhenOpened": "2025-02-12T18:08:01.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:07:50.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FieldVisitRequest.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\FieldVisitRequest.cs",
+              "RelativeDocumentMoniker": "Models\\FieldVisitRequest.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\FieldVisitRequest.cs",
+              "RelativeToolTip": "Models\\FieldVisitRequest.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:07:26.343Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "20250208201438_AddCropAdvisory.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\CropAdvisoryDb\\20250208201438_AddCropAdvisory.cs",
-              "RelativeDocumentMoniker": "Migrations\\CropAdvisoryDb\\20250208201438_AddCropAdvisory.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\CropAdvisoryDb\\20250208201438_AddCropAdvisory.cs",
-              "RelativeToolTip": "Migrations\\CropAdvisoryDb\\20250208201438_AddCropAdvisory.cs",
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T20:14:38.807Z"
+              "WhenOpened": "2025-02-12T18:07:21.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CropAdvisory.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\CropAdvisory.cs",
+              "RelativeDocumentMoniker": "Models\\CropAdvisory.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\CropAdvisory.cs",
+              "RelativeToolTip": "Models\\CropAdvisory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:07:15.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:06:48.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:06:33.833Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "UserDbContext.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Data\\UserDbContext.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\UserDbContext.cs",
               "RelativeDocumentMoniker": "Data\\UserDbContext.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Data\\UserDbContext.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\UserDbContext.cs",
               "RelativeToolTip": "Data\\UserDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:51:05.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T05:35:01.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:18:03.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-31T05:32:41.953Z"
+              "WhenOpened": "2025-02-12T18:06:13.95Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "Models\\Admin.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Models\\Admin.cs",
-              "RelativeToolTip": "Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Title": "CropAdvisoryDbContext.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\CropAdvisoryDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\CropAdvisoryDbContext.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\CropAdvisoryDbContext.cs",
+              "RelativeToolTip": "Data\\CropAdvisoryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T05:33:56.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "Models\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T05:34:02.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "20250207113923_AddIsDeletedByAdminToFieldVisitRequest.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\BookFieldVisitDb\\20250207113923_AddIsDeletedByAdminToFieldVisitRequest.cs",
-              "RelativeDocumentMoniker": "Migrations\\BookFieldVisitDb\\20250207113923_AddIsDeletedByAdminToFieldVisitRequest.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\BookFieldVisitDb\\20250207113923_AddIsDeletedByAdminToFieldVisitRequest.cs",
-              "RelativeToolTip": "Migrations\\BookFieldVisitDb\\20250207113923_AddIsDeletedByAdminToFieldVisitRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T11:39:23.964Z"
+              "WhenOpened": "2025-02-12T18:06:01.915Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "FieldVisitRequest.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Models\\FieldVisitRequest.cs",
-              "RelativeDocumentMoniker": "Models\\FieldVisitRequest.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Models\\FieldVisitRequest.cs",
-              "RelativeToolTip": "Models\\FieldVisitRequest.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwB0AAAAIAAAAAAAAAA==",
+              "Title": "BookingProductsDbContext.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\BookingProductsDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\BookingProductsDbContext.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\BookingProductsDbContext.cs",
+              "RelativeToolTip": "Data\\BookingProductsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T18:53:08.472Z"
+              "WhenOpened": "2025-02-12T18:05:28.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookFieldVisitDbContext.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\BookFieldVisitDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\BookFieldVisitDbContext.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\BookFieldVisitDbContext.cs",
+              "RelativeToolTip": "Data\\BookFieldVisitDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:05:16.32Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "StockInventory.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Models\\StockInventory.cs",
-              "RelativeDocumentMoniker": "Models\\StockInventory.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Models\\StockInventory.cs",
-              "RelativeToolTip": "Models\\StockInventory.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBEAAAASAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:20:51.295Z"
+              "WhenOpened": "2025-02-12T18:04:44.306Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
+              "Title": "AddStockDbContext.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\AddStockDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AddStockDbContext.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\AddStockDbContext.cs",
+              "RelativeToolTip": "Data\\AddStockDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:28:02.879Z"
+              "WhenOpened": "2025-02-12T18:04:21.463Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "AddStockDbContext.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Data\\AddStockDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AddStockDbContext.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Data\\AddStockDbContext.cs",
-              "RelativeToolTip": "Data\\AddStockDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:22:10.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "20250206100409_AddFieldVisitRequestsTable.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\BookFieldVisitDb\\20250206100409_AddFieldVisitRequestsTable.cs",
-              "RelativeDocumentMoniker": "Migrations\\BookFieldVisitDb\\20250206100409_AddFieldVisitRequestsTable.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\BookFieldVisitDb\\20250206100409_AddFieldVisitRequestsTable.cs",
-              "RelativeToolTip": "Migrations\\BookFieldVisitDb\\20250206100409_AddFieldVisitRequestsTable.cs",
+              "Title": "AddProductDbContext.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\AddProductDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AddProductDbContext.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Data\\AddProductDbContext.cs",
+              "RelativeToolTip": "Data\\AddProductDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T10:04:09.569Z"
+              "WhenOpened": "2025-02-12T18:04:15.262Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "20250131071539_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\20250131071539_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250131071539_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\20250131071539_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250131071539_InitialCreate.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAABAAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T07:15:40.237Z"
+              "WhenOpened": "2025-02-12T18:03:05.655Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "GreenYieldSolutions.csproj",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj",
-              "RelativeDocumentMoniker": "GreenYieldSolutions.csproj",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj",
-              "RelativeToolTip": "GreenYieldSolutions.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-31T05:34:28.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "20250205134438_AddStockInventoryTable.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddStockDb\\20250205134438_AddStockInventoryTable.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddStockDb\\20250205134438_AddStockInventoryTable.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddStockDb\\20250205134438_AddStockInventoryTable.cs",
-              "RelativeToolTip": "Migrations\\AddStockDb\\20250205134438_AddStockInventoryTable.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Title": "StockInventoryController.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\StockInventoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StockInventoryController.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\StockInventoryController.cs",
+              "RelativeToolTip": "Controllers\\StockInventoryController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:44:38.942Z"
+              "WhenOpened": "2025-02-12T18:02:41.772Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "StockInventoryController.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\StockInventoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StockInventoryController.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Controllers\\StockInventoryController.cs",
-              "RelativeToolTip": "Controllers\\StockInventoryController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wC4AAABCAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:23:33.958Z"
+              "WhenOpened": "2025-02-12T18:02:19.126Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "20250205133925_AddStockInventoryTable.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddStockDb\\20250205133925_AddStockInventoryTable.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddStockDb\\20250205133925_AddStockInventoryTable.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddStockDb\\20250205133925_AddStockInventoryTable.cs",
-              "RelativeToolTip": "Migrations\\AddStockDb\\20250205133925_AddStockInventoryTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FieldVisitRequestsController.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\FieldVisitRequestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FieldVisitRequestsController.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\FieldVisitRequestsController.cs",
+              "RelativeToolTip": "Controllers\\FieldVisitRequestsController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:39:26.075Z"
+              "WhenOpened": "2025-02-12T18:01:02.932Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "CropAdvisoryController.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\CropAdvisoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CropAdvisoryController.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\CropAdvisoryController.cs",
+              "RelativeToolTip": "Controllers\\CropAdvisoryController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:16:27.67Z"
+              "WhenOpened": "2025-02-12T17:59:58.613Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "20250205074907_CreateCropsAndStockTables.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddStockEntryDb\\20250205074907_CreateCropsAndStockTables.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddStockEntryDb\\20250205074907_CreateCropsAndStockTables.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddStockEntryDb\\20250205074907_CreateCropsAndStockTables.cs",
-              "RelativeToolTip": "Migrations\\AddStockEntryDb\\20250205074907_CreateCropsAndStockTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAA/wIYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T07:49:07.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AddProductDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\AddProductDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddProductDb\\AddProductDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\AddProductDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AddProductDb\\AddProductDbContextModelSnapshot.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T07:21:39.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20250203153744_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203153744_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddProductDb\\20250203153744_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203153744_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\AddProductDb\\20250203153744_InitialCreate.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T15:37:44.752Z"
+              "WhenOpened": "2025-02-12T17:58:14.808Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "AddProductDbContext.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Data\\AddProductDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AddProductDbContext.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Data\\AddProductDbContext.cs",
-              "RelativeToolTip": "Data\\AddProductDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:17:10.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "libman.json",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\libman.json",
-              "RelativeDocumentMoniker": "libman.json",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\libman.json",
-              "RelativeToolTip": "libman.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-02T17:34:18.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20250203153133_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203153133_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddProductDb\\20250203153133_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203153133_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\AddProductDb\\20250203153133_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T15:31:33.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "20250203142051_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203142051_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddProductDb\\20250203142051_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203142051_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\AddProductDb\\20250203142051_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:20:51.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20250203060245_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203060245_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddProductDb\\20250203060245_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203060245_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\AddProductDb\\20250203060245_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T06:02:46.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20250203112549_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203112549_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddProductDb\\20250203112549_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203112549_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\AddProductDb\\20250203112549_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T11:25:49.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20250203072838_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203072838_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddProductDb\\20250203072838_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250203072838_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\AddProductDb\\20250203072838_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:28:38.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "20250202171534_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250202171534_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\AddProductDb\\20250202171534_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\AddProductDb\\20250202171534_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\AddProductDb\\20250202171534_InitialCreate.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T17:15:34.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "20250131054122_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\20250131054122_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250131054122_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\20250131054122_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250131054122_InitialCreate.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T05:41:23.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "20250131100729_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\UserDb\\20250131100729_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\UserDb\\20250131100729_InitialCreate.cs",
-              "ToolTip": "C:\\Project Backend\\GreenYieldSolutions\\Migrations\\UserDb\\20250131100729_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\UserDb\\20250131100729_InitialCreate.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T10:07:29.899Z"
+              "WhenOpened": "2025-02-12T17:56:52.601Z"
             }
           ]
         }

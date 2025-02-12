@@ -94,10 +94,17 @@ export default function Header() {
                 </Link>
               </li>
 
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/farmerLogin">
+                  Sign-up
+                </Link>
+              </li>
+
               {isAdminLoggedIn && (
                 <li className="nav-item">
                   <Link className="nav-link" to="/adminDashboard">
-                    Admin Logged In
+                    {/* Admin Logged In */}
                   </Link>
                 </li>
               )}
@@ -110,3 +117,9 @@ export default function Header() {
     </div>
   );
 }
+
+
+
+
+// Pranit Js
+

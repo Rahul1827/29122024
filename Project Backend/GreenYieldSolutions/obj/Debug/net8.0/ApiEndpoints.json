@@ -48,6 +48,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "GreenYieldSolutions.Controllers.BookingController",
+    "Method": "CreateBooking",
+    "RelativePath": "api/Booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingDto",
+        "Type": "GreenYieldSolutions.Controllers.BookingController\u002BBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenYieldSolutions.Controllers.BookingController",
+    "Method": "GetAllBookings",
+    "RelativePath": "api/Booking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenYieldSolutions.Controllers.BookingController",
+    "Method": "GetBookingsForCustomer",
+    "RelativePath": "api/Booking/customer/{customerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GreenYieldSolutions.Controllers.CropAdvisoryController",
     "Method": "GetCropAdvisories",
     "RelativePath": "api/CropAdvisory",

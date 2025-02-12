@@ -16,7 +16,7 @@ namespace GreenYieldSolutions.Controllers
                 _context = context;
             }
 
-            // 🔹 Login API
+            //  Login API
             [HttpPost("login")]
             public async Task<IActionResult> Login([FromBody] LoginDto model)
             {
@@ -29,7 +29,7 @@ namespace GreenYieldSolutions.Controllers
                 return Ok("Login successful");
             }
 
-            // 🔹 Forgot Password API
+            //  Forgot Password API
             [HttpPost("forgot-password")]
             public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDtoAdmin model)
             {

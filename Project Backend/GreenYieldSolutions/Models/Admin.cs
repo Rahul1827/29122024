@@ -4,7 +4,6 @@ namespace GreenYieldSolutions.Models
 {
     public class Admin
     {
-
         public int Id { get; set; }
 
         [Required, EmailAddress]

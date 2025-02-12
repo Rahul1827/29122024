@@ -184,6 +184,11 @@ export default function FarmerHeader() {
             <li className="nav-item">
               <Link className="nav-link" to="/farmerdash/farmerservices">Services</Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/farmerdash/mybookings">My Bookings</Link>
+            </li>
+
             <li className="nav-item">
               <Link className="nav-link" to="/farmerdash/contact">Contact</Link>
             </li>

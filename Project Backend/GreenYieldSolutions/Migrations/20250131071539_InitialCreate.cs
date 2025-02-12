@@ -15,7 +15,7 @@ namespace GreenYieldSolutions.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Admins",
+                name: "",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -41,7 +41,7 @@ namespace GreenYieldSolutions.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Admins");
+                name: "");
         }
     }
 }

@@ -32,14 +32,6 @@ namespace GreenYieldSolutions.Controllers
             return stock;
         }
 
-        // POST: api/StockInventory
-        //[HttpPost]
-        //public async Task<ActionResult<StockInventory>> AddStockInventory(StockInventory stockInventory)
-        //{
-        //    _context.StockInventories.Add(stockInventory);
-        //    await _context.SaveChangesAsync();
-        //    return CreatedAtAction(nameof(GetStockInventory), new { id = stockInventory.Id }, stockInventory);
-        //}
 
        [HttpPost]
 public async Task<ActionResult<StockInventory>> AddStockInventory(StockInventory stockInventory)

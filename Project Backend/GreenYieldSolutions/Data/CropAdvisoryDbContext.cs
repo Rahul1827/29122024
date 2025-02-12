@@ -9,8 +9,6 @@ namespace GreenYieldSolutions.Data
         : base(options)
         {
         }
-
-
         public DbSet<CropAdvisory> CropAdvisories { get; set; }
     }
 }

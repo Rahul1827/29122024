@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj": {}
+    "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj": {}
   },
   "projects": {
-    "C:\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj": {
+    "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj",
+        "projectUniqueName": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj",
         "projectName": "GreenYieldSolutions",
-        "projectPath": "C:\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj",
+        "projectPath": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\GreenYieldSolutions.csproj",
         "packagesPath": "C:\\Users\\SHREE\\.nuget\\packages\\",
-        "outputPath": "C:\\Project Backend\\GreenYieldSolutions\\obj\\",
+        "outputPath": "C:\\Project work after ccee\\29122024\\Project Backend\\GreenYieldSolutions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

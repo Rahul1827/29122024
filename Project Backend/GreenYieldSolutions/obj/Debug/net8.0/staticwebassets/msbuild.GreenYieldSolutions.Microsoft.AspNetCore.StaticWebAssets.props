@@ -252,6 +252,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\79e83e9b-4dfe-45b1-9675-71962afa384b.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7f3ad6d5-8013-40cd-9b17-562bb87a24b5.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GreenYieldSolutions</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GreenYieldSolutions</BasePath>
+      <RelativePath>uploads/7f3ad6d5-8013-40cd-9b17-562bb87a24b5.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h6wo7whd51</Fingerprint>
+      <Integrity>6e/rECbdOdsTztQQS8j66t3kXj0TRz+38We1VXzNGJM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7f3ad6d5-8013-40cd-9b17-562bb87a24b5.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\84fc6594-b67b-4493-a0e7-ceaf2c63d958.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>GreenYieldSolutions</SourceId>
@@ -558,6 +576,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bf38f07b-346a-4938-8ce4-e6358d18488f.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d4f18ee6-cef3-407a-9127-e53c2952bc91.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GreenYieldSolutions</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GreenYieldSolutions</BasePath>
+      <RelativePath>uploads/d4f18ee6-cef3-407a-9127-e53c2952bc91.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q72ww7nen1</Fingerprint>
+      <Integrity>yqBtvEtgwQjGCVEO0MSwy8VADqu8/AkMOgCykQFf9VA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d4f18ee6-cef3-407a-9127-e53c2952bc91.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ddca37e0-fe4b-4696-a49d-f610aadcb36b.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>GreenYieldSolutions</SourceId>
@@ -593,6 +629,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e243f7f9-da45-4f8b-b328-f3f461067e31.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e2dee99a-465e-4fd6-af55-deaea1ba2edb.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GreenYieldSolutions</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GreenYieldSolutions</BasePath>
+      <RelativePath>uploads/e2dee99a-465e-4fd6-af55-deaea1ba2edb.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>89eqxxy98k</Fingerprint>
+      <Integrity>rA9IWsWUKXc2GQRqMLzaC2PmPccYMO2Wai6CQRKkWGw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e2dee99a-465e-4fd6-af55-deaea1ba2edb.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f0df85ec-7614-4eb2-8cf1-37a7dce02918.jpg'))">
       <SourceType>Package</SourceType>

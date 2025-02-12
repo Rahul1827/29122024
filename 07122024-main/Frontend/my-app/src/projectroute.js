@@ -29,6 +29,12 @@ import ResetPassword from "./Components/ResetPassword";  // Adjust the path if n
 import AddCropAdvisory from "./Components/AddCropAdvisory"; // Adjust the path if necessary
 import  Booking  from "./Components/Booking";
 import FarmerProducts from "./Components/FarmerProducts";
+import  MyBooking  from "./Components/MyBooking";
+import CropNutrition from "./Components/CropNutrition";
+import FertilizerGuidance from "./Components/FertilizerGuidance";
+import InventoryManagement from "./Components/InventoryManagement";
+import GetStarted from "./Components/GetStarted";
+
 
 
 
@@ -41,6 +47,30 @@ const projectroute = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+
+
+      // 
+      {
+        path: "/cropNutrition",
+        element: <CropNutrition/>,
+      },
+      {
+        path: "/fertilizerGuidance",
+        element: <FertilizerGuidance/>,
+      },
+      {
+        path: "/inventoryManagement",
+        element: <InventoryManagement/>,
+      },
+      
+      {
+        path: "/getStarted",
+        element: <GetStarted/>,
+      },
+
+      // 
+
+
       {
         path: "/farmerRegistration",
         element: <FarmerRegistration />,
@@ -182,13 +212,13 @@ const projectroute = createBrowserRouter([
       },
 
       {
-        path: "bookingProducts", // Add this route
+        path: "bookingProducts",
         element: <Booking/>,
       },
-      // {
-      //   path: "faProducts", // Add this route
-      //   element: <FarmerProducts/>,
-      // },
+      {
+        path: "mybookings", 
+        element: <MyBooking/>,
+      },
     ],
   },
 ]);

@@ -8,7 +8,6 @@
                 public UserDbContext(DbContextOptions<UserDbContext> options) : base(options)
                 {
                 }
-
                 public DbSet<Models.User> Users { get; set; }
             }
     
