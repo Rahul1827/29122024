@@ -38,6 +38,12 @@ builder.Services.AddDbContext<BookingProductsDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
 
+
+// ContactDbContext (for Contact us)
+builder.Services.AddDbContext<ContactDbContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+
 // Configure CORS properly for credentials
 builder.Services.AddCors(options =>
 {

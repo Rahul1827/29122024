@@ -1,75 +1,51 @@
-// import React from 'react';
-// import './Contact.css'; // Import the CSS file
 
-// export default function Contact() {
-//   return (
-//     <div className="contact-page">
-//       <h2>Connect with us</h2>
-//       <div className="contact-card">
-       
-//         <div className="contact-info">
-//           <p><strong>Phone Number:</strong> +91 9876543210</p>
-//           <p><strong>Telephone Number:</strong> (022) 123-4567</p>
-//           <p>
-//             <strong>Email:</strong>{' '}
-//             <a href="mailto:shopowner@example.com">shopowner@example.com</a>
-//           </p>
-//           <p>
-//             <strong>Facebook:</strong>{' '}
-//             <a
-//               href="https://facebook.com/shopowner"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               facebook.com/shopowner
-//             </a>
-//           </p>
-//           <p>
-//             <strong>Instagram:</strong>{' '}
-//             <a
-//               href="https://instagram.com/shopowner"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               @shopowner
-//             </a>
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
+
+
 
 
 import React, { useState } from "react";
-import './Contact.css';
+import "./Contact.css";
 
 const ContactPage = () => {
-  const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
   const [query, setQuery] = useState("");
-  const [message, setMessage] = useState(""); // To show feedback after submission
+  const [message, setMessage] = useState("");
 
-  // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Simple validation (you can extend this based on your needs)
-    if (!email || !username || !query) {
+    if (!username || !email || !mobile || !query) {
       setMessage("Please fill in all the fields!");
       return;
     }
 
-    // Simulate form submission (here you can call an API or backend)
-    console.log("Form Submitted", { email, username, query });
+    const contactData = { username, email, mobile, query };
 
-    // Show a success message
-    setMessage("Thank you for your submission! We will get back to you soon.");
+    try {
+      const response = await fetch("https://localhost:44361/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(contactData),
+      });
 
-    // Reset form
-    setEmail("");
-    setUsername("");
-    setQuery("");
+      if (response.ok) {
+        const result = await response.json();
+        setMessage("Thank you! Your query has been submitted successfully.");
+        setUsername("");
+        setEmail("");
+        setMobile("");
+        setQuery("");
+      } else {
+        setMessage("Error submitting form. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setMessage("Network error. Please try again.");
+    }
   };
 
   return (
@@ -79,44 +55,27 @@ const ContactPage = () => {
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="username">Username:</label>
-            <input
-              type="text"
-              id="username"
-              name="username"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              required
-            />
+            <input type="text" id="username" value={username} onChange={(e) => setUsername(e.target.value)} required />
           </div>
 
           <div className="form-group">
             <label htmlFor="email">Email Address:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
+            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" value={mobile} onChange={(e) => setMobile(e.target.value)} required />
           </div>
 
           <div className="form-group">
             <label htmlFor="query">Your Query:</label>
-            <textarea
-              id="query"
-              name="query"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              rows="5"
-              required
-            ></textarea>
+            <textarea id="query" value={query} onChange={(e) => setQuery(e.target.value)} rows="5" required></textarea>
           </div>
 
           <button className="btnContact" type="submit">Submit</button>
         </form>
 
-        {/* Message after submission */}
         {message && <p className="message">{message}</p>}
       </div>
     </div>

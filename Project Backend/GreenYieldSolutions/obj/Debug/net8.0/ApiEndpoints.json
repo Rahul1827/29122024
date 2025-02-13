@@ -90,6 +90,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "GreenYieldSolutions.Controllers.ContactController",
+    "Method": "PostContact",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contact",
+        "Type": "GreenYieldSolutions.Models.Contact",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenYieldSolutions.Controllers.ContactController",
+    "Method": "GetContacts",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GreenYieldSolutions.Controllers.CropAdvisoryController",
     "Method": "GetCropAdvisories",
     "RelativePath": "api/CropAdvisory",

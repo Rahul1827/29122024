@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenYieldSolutions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2adc95e674dfe3a5e5ece5019b384c9522a77909")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b6903b55077d953826639063b7443fd00005b39")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenYieldSolutions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenYieldSolutions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -34,6 +34,11 @@ import CropNutrition from "./Components/CropNutrition";
 import FertilizerGuidance from "./Components/FertilizerGuidance";
 import InventoryManagement from "./Components/InventoryManagement";
 import GetStarted from "./Components/GetStarted";
+import Notifications from "./Components/Notification";
+
+
+
+
 
 
 
@@ -131,6 +136,8 @@ const projectroute = createBrowserRouter([
         path: "/reset-password",
         element: <ResetPassword />,
       },
+
+      
     ],
   },
   {
@@ -174,6 +181,11 @@ const projectroute = createBrowserRouter([
       {
         path: "addCropAdvisory",
         element: <AddCropAdvisory/>,
+      },
+
+      {
+        path: "notification",
+        element: <Notifications/>,
       },
     ],
   },

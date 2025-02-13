@@ -274,3 +274,12 @@
 .nav-item {
   text-align: center; /* Ensure tabs are centered */
 }
+
+
+.notification-badge {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-left: 5px;
+}

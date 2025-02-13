@@ -1,0 +1,170 @@
+/* General Styles for Notifications */
+.notifications-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(145deg, #1a2e1f, #122618); /* Dark green gradient */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .notifications-container h1 {
+    text-align: center;
+    color: #d4ecdd; /* Light green for contrast */
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .notifications-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notification-item {
+    background: linear-gradient(145deg, #2c4a3e, #1e3529); /* Dark green gradient */
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 6px solid #4caf50; /* Vibrant green */
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .notification-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(76, 175, 80, 0.1), rgba(76, 175, 80, 0.3)); /* Vibrant green gradient */
+    transition: left 0.6s ease-in-out;
+  }
+  
+  .notification-item:hover::before {
+    left: 100%;
+  }
+  
+  .notification-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(76, 175, 80, 0.3); /* Vibrant green shadow */
+    border-left-color: #388e3c; /* Darker green on hover */
+  }
+  
+  .notification-item p {
+    margin: 10px 0;
+    color: #d4ecdd; /* Light green for contrast */
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .notification-item p strong {
+    color: #ffffff; /* White for strong elements */
+    font-weight: 600;
+  }
+  
+  .submitted-date {
+    font-size: 0.9rem;
+    color: #a8c6a8; /* Muted green for dates */
+    font-style: italic;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .notification-item {
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px rgba(76, 175, 80, 0.4); /* Vibrant green glow */
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(76, 175, 80, 0.6); /* Vibrant green glow */
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(76, 175, 80, 0.4); /* Vibrant green glow */
+    }
+  }
+  
+  .notification-item:hover {
+    animation: glow 1.5s infinite ease-in-out;
+  }
+  
+  /* Gestures */
+  .notification-item {
+    cursor: pointer;
+  }
+  
+  .notification-item:active {
+    transform: scale(0.97);
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  /* Additional Attractive Elements */
+  .notification-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #4caf50, #388e3c); /* Vibrant green gradient */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .notification-item:hover::after {
+    transform: scaleX(1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .notifications-container {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    .notification-item {
+      padding: 20px;
+    }
+  
+    .notifications-container h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Loading Spinner (Optional) */
+  .loading-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #4caf50; /* Vibrant green */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
